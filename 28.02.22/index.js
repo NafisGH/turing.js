@@ -1,9 +1,9 @@
-//Упражнение 1
-// let number = 10+5;
+// Упражнение 1
+// let number = 10;
 // alert(number);
 
 //Упражнение 2
-// const name = prompt ("Ваше ФИО");
+const name = prompt ("Ваше ФИО");
 
 // //Упражнение 3
 // console.log(typeof 3);
@@ -59,8 +59,8 @@
 // console.log(typeof false);
 
 // Упражнение 10
-const A = 201;
+// const A = 201;
 
-let result = A % 2 ? 'A нечетное' : 'A четное';
-alert(result);
+// let result = A % 2 ? 'A нечетное' : 'A четное';
+// alert(result);
 
