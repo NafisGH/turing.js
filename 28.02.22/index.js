@@ -138,13 +138,79 @@
 // }
 // pag('Здравствуйте, (name)')
 
-const fib2 = n => {
-    if(n == 0){
-      return [0, 1];
-    }else{
-      const [prev, next] = fib2(n - 1);
-      return [next, prev + next];
-    }
-  }
-  
-  const fib = n => fib2(n)[0];
+// №5
+
+// №6
+
+// Домашка 21.03.22
+// №1
+// let i = 0;
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+// let a = 0;
+// do {
+//     console.log(a);
+//     a++;
+// } while (a <= 10);
+
+// for (let b = 0; b <= 10; b++) {
+//     console.log(b);
+// }
+
+// №2
+// for (i=0;i<100;i++) {
+//     if (prompt('завершить')) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// №3
+// for (let i=0; i<=20; i++) {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//     }
+// }
+
+// №4
+// let i=10+5;
+// switch (i) {
+//     case 3:
+//         console.log('error');
+//         break;
+//     case 6:
+//         console.log('error');
+//         break;
+//     case 10:
+//         console.log('error');
+//         break;
+//     case 15:
+//         console.log('good');
+//         break;
+//     case 3:
+//         console.log('error');
+//         break;
+//     default:
+//         console.log('нет ответа')
+// }
+
+// №5
+// let a=5,b=8;
+// a=10;
+// b=20;
+// console.log(a,b)
+
+// №6
+// let num = 143.2343;
+// console.log(num.toFixed(2));
+
+// №7
+// let num = 42.2654;
+// console.log(num.toFixed(1));
+
+// №8
+// let text = 'I learn JavaScript';
+// console.log(text.indexOf('JavaScript'));
