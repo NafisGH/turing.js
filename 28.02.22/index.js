@@ -98,7 +98,7 @@
 
 // №2
 // let one = 25;
-// let two = 5;
+// let two = 25;
 
 // const number = () => {
 //   if (one > two) {
@@ -133,19 +133,24 @@
 // login3(100,50)
 
 // №4
-// const pag = (name) => {
+// const pag = (name='гость') => {
 //     console.log(name);
 // }
 // pag('Здравствуйте, (name)')
 
 // №5
+// function fib(n) {
+// return n <= 1 ? n: fib(n-1) + fib(n-2);
+// }
+// console.log(fib(3));
 
 // №6
-
+  
 // Домашка 21.03.22
 // №1
 // let i = 0;
 // while (i <= 10) {
+    
 //     console.log(i);
 //     i++;
 // }
@@ -161,10 +166,14 @@
 // }
 
 // №2
+
+
 // for (i=0;i<100;i++) {
-//     if (prompt('завершить')) {
+//     let text = prompt('завершить');
+//     if (text === 'завершить') {
 //         break;
 //     }
+
 //     console.log(i);
 // }
 
@@ -214,3 +223,60 @@
 // №8
 // let text = 'I learn JavaScript';
 // console.log(text.indexOf('JavaScript'));
+
+// Домашка от 23.03.22
+// №1
+/*
+const object = {
+    a: 'a',
+    b: 'b',
+    c: 'c'
+}
+console.log(object.a)
+console.log(object.b)
+console.log(object.c)
+console.log(object['a'])
+console.log(object['b'])
+console.log(object['c'])
+*/
+// №2
+// const box = {
+//     a: 2,
+//     b: 5,
+// user: {
+//     name: 'tomas',
+//     age: 30,
+//     profession: 'doctor',
+// }
+// }
+// const box2 = { // Spread-оператора
+//     ...box
+// }
+// console.log(box, box2)
+// box2.a = 10;
+
+// let box2 = Object.assign({}, box); 
+// console.log(box, box2)
+// box2.user.age = 50;
+
+// №3
+// const list = {
+//     a: 2,
+//     b: 5,
+// }
+// console.log(list.a)
+// delete list.a;
+// console.log(list.a)
+
+// №4
+const objectBox = {}
+objectBox['name'] = 'Иван';
+objectBox['lastName'] = 'Иванов';
+objectBox['salary'] = 25;
+// console.log(objectBox.name);
+for (let pot in objectBox) {
+    console.log(pot)
+    console.log(objectBox[pot])
+
+}
+
