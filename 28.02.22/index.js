@@ -269,14 +269,15 @@ console.log(object['c'])
 // console.log(list.a)
 
 // №4
-const objectBox = {}
-objectBox['name'] = 'Иван';
-objectBox['lastName'] = 'Иванов';
-objectBox['salary'] = 25;
-// console.log(objectBox.name);
-for (let pot in objectBox) {
-    console.log(pot)
-    console.log(objectBox[pot])
+// const objectBox = {}
+// objectBox['name'] = 'Иван';
+// objectBox['lastName'] = 'Иванов';
+// objectBox['salary'] = 25;
+// // console.log(objectBox.name);
+// for (let pot in objectBox) {
+//     console.log(pot)
+//     console.log(objectBox[pot])
+// }
 
-}
+
 
